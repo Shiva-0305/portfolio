@@ -1,0 +1,98 @@
+/* Projects Section Container */
+.projects {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+  border-bottom: 2px solid black;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+/* Grid Layout */
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Individual Project Card */
+.project-card {
+  background-color: #f9f9f9;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 25px;
+  width: 300px;
+  box-shadow: 4px 4px 0 #000;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 6px 6px 0 #555;
+}
+
+/* Title & Description */
+.project-card h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.project-desc {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Tags */
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.project-tags span {
+  background-color: #000;
+  color: #fff;
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+/* GitHub Button */
+.btn-github {
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: #24292e;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+
+.btn-github:hover {
+  background-color: #444;
+}
+
+
+/*
+create a to do list  using html css js with local storage 
+
+develop a form based interfac to enrer the tasks/ntoes
+add js function to add,delet, and mark as completedtasks
+use localstorage.getime and set time to store and retrieve tasks
+add feature like date selction and filtering task like completed or pending
+
+give me the codes to implement aboce task
+
+*/
+
+

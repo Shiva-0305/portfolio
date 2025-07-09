@@ -1,0 +1,81 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #375858;
+  color: #1a1404;
+  line-height: 1.6;
+}
+
+body {
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+}
+
+/* Top Navigation Bar */
+.top-bar {
+display: flex;
+border-bottom: 2px solid black;
+padding: 10px 20px;
+background-color: #f0f0f0;
+justify-content: flex-end; /* Push children to right */
+}
+
+.nav-right {
+display: flex;
+gap: 10px;
+}
+.nav-right {
+display: flex;
+gap: 10px;
+}
+
+.nav-right a {
+padding: 10px 15px;
+/* border: 2px solid black; */
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+color: black;
+transition: background 0.3s;
+}
+
+.nav-right a:hover {
+color: rgb(255, 255, 255);
+background-color: #313030;
+}
+
+
+
+/* Footer Styling */
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  height: 1rem;
+  width: 100vw;
+/* height: 40px; */
+border-top: 2px solid black;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+background-color: #f0f0f0;
+}
+

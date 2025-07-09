@@ -1,0 +1,66 @@
+/* Skills Section Container */
+.skills-section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.skills-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid rgb(173, 163, 163);
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+/* Text Description */
+.skills-section .text p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #f5efef;
+}
+
+/* Skills Grid */
+
+
+.cells {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.cell {
+  width: 150px;
+  height: 170px;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, background 0.3s ease;
+  background-color: #f9f9f9;
+}
+
+.cell img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.cell span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cell:hover {
+  transform: translateY(-5px);
+  background-color: #e0e0e0;
+}
+

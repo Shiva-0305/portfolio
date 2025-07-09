@@ -1,0 +1,67 @@
+/* Contact Form Styling */
+form {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #000;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: sans-serif;
+  width: 100%;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+form button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background-color: #333;
+}
+
+/* Social Links Styling */
+.socials {
+  max-width: 600px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.socials a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  color: #000;
+  font-weight: bold;
+  transition: background 0.3s, color 0.3s;
+}
+
+.socials a:hover {
+  background-color: #000;
+  color: #fff;
+}
